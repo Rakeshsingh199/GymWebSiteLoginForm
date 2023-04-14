@@ -1,0 +1,140 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    /* background: url("/view/images/pexels-scott-webb-28080.jpg"); */
+    background: url("/view/training-828726\ \(1\).png");
+    color: white;
+    /* height:1216px; */
+    width: 1920px;
+    background-repeat:no-repeat;
+}
+
+.nav-header {
+    width: 100%;
+    height: 50px;
+    /* border: 2px solid green; */
+    position: absolute;
+    display: block;
+    height: 104px;
+
+}
+
+.logo {
+    /* width:45px; */
+    display: inline-block;
+    /* border: 2px solid black; */
+}
+
+.nav-bar {
+    /* border: 2px solid red; */
+    display: block;
+
+    width: 40%;
+    position: absolute;
+    top: 10px;
+    left: 350px;
+    margin: auto;
+}
+
+.logo img {
+    height: 70px;
+    width: 80px;
+    filter: invert(100);
+}
+
+.nav-header div {
+    text-align: center;
+}
+
+.nav-bar {
+    display: inline-block;
+}
+
+.nav-bar li {
+    display: inline-block;
+    color: white;
+    padding: 10px;
+
+}
+
+.nav-bar li a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-bar li a:hover {
+    color: white;
+    background-color:black;
+    opacity: 0.5;
+}
+
+.buttons-right {
+    /* border: 2px solid yellow; */
+    position: absolute;
+    top: 0px;
+    right: 10px;
+    margin: 33px 20px;
+    border-radius: 8px;
+}
+.buttons-right button{
+    color:black;
+    background-color:white;
+    cursor: pointer;
+    border-radius: 8px;
+}
+.buttons-right button:hover{
+    color:white;
+    background-color: black;
+    opacity: 0.5;
+}
+.formcontainer{
+    /* display:block; */
+    position: absolute;
+    top:100px;
+    left: 400px;
+    /* border:3px solid black; */
+    width:500px;
+    /* width:500px; */
+    /* margin:auto; */
+}
+.formcontainer input{
+    width:400px;
+    font-family: 'Montserrat', sans-serif;
+    padding:10px;
+    display:block;
+    margin:30px auto;
+    /* position:absolute; */
+}
+.formgroup button{
+    /* width:300px;
+    height:80px;
+    margin:auto;
+    background-color: black; */
+    /* margin: -6px 38px;
+    width: 421px;
+    height: 55px; */
+    margin: 7px 40px;
+    width: 421px;
+    height: 45px;
+    margin-top:0px;
+}
+.formgroup button:hover{
+    background-color: black;
+    color:white;
+    opacity: 0.5;
+}
+ /* #submitbtn{
+    width:400px;
+    font-family: 'Montserrat', sans-serif;
+    /* padding:10px; */
+    /* position:absolute; */
+    /* margin:auto; */
+    /* background-color: black;
+    color:yellow;
+    margin:0px 50px; */
+    /* top:100px; */
+
+.formcontainer p{
+    text-align: center;
+    font-weight:bold ;
+}
+
